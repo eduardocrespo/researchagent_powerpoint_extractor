@@ -10,4 +10,4 @@ This code will do:
 
 ** Run the App locally on the Server:
 source .venv/bin/activate
-streamlit run app.py
+streamlit run app.py --server.maxUploadSize=1028 
